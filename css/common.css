@@ -1,0 +1,53 @@
+body{
+	width: 100%;
+	margin: 0px;
+	font-family: "微软雅黑",Arial;
+	color: #ffffff;
+	font-size: 12px;
+}
+ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,p,input,button{
+	margin: 0px;
+	padding: 0px;
+}
+ul,ol{
+	list-style: none;
+}
+.lf{
+	float: left;
+}
+.rt{
+	float: right;
+}
+.clearfloat:after{
+	content: "";
+	display: table;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+a{
+	text-decoration: none;
+	color: #ffffff;
+}
+a:hover{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+
+.common-title{
+	position: absolute;
+	top: 100px;
+	color: #000000;
+	height: 80px;
+	opacity: 0;
+}
+.common-title h1{
+	font-family: times new roman;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.common-title h6{
+	font-family: 微软雅黑;
+    font-size: 13px;
+}

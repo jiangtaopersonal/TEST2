@@ -1,0 +1,75 @@
+/*********页面底部footer**********/
+.foot{
+	width: 100%;
+	background: #440807; 
+}
+.foot .footer{
+	width: 1055px;
+	margin: 0 auto;
+	color: #a07165;
+	background: #440807;
+}
+.footer .foot-intr{
+	border-bottom: 1px solid #6d492a;
+}
+.footer .foot-intr div{
+	margin: 50px 0;
+	width: 25%;
+	float: left;
+}
+.footer .foot-intr div img{
+	padding: 5px 0;
+	float: left;
+}
+.footer .foot-intr div h3{
+	margin: 10px 0 0 20px;
+	float: left;
+	font-size: 16px;
+    color: #c1c1c1;
+}
+.footer .foot-intr div span{
+	float: left;
+	margin: 5px 0 0 20px;
+    color: #828282;
+}
+.footer .foot-about{
+	border-bottom: 1px solid #6d492a;
+}
+.footer .foot-about div{
+	margin-top: 30px;
+	width: 25%;
+	float: left;
+	margin-bottom: 20px;
+}
+.footer .foot-about div ul li{
+	float: left;
+	margin-right: 5px;
+}
+.footer .foot-about div h3{
+	margin:20px 0; 
+	color: #c19c93;
+}
+.footer .foot-about div span{
+	display:block;
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+.footer .foot-about div ul li:first-child img{
+	width: 35px;
+	height: 35px;
+	overflow: hidden;
+}
+.footer .foot-about div ul li:nth-child(2) img{
+	width: 55px;
+	height: 35px;
+	overflow: hidden;
+}
+.footer .foot-about div ul li:nth-child(3) img{
+	width: 35px;
+	height: 35px;
+	overflow: hidden;
+}
+.footer .copy{
+	text-align:center; 
+	line-height: 30px;
+}

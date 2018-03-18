@@ -1,0 +1,58 @@
+.products{
+	width: 1055px;
+	margin: 0 auto;
+	font-family: 宋体;
+	color: #666666;
+}
+/*********红酒选择*********/
+.products ul.ul_chose>li{
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+	border: 1px solid #e2e2e2;
+}
+.products ul.ul_chose {
+	width: 100%;
+	margin:20px 0;
+}
+.products ul.ul_chose ul{
+	height: 40px;
+	border: 0;
+}
+.products ul li ul li{
+	text-align: center;
+	line-height: 40px;
+	width: 80px;
+	float: left;
+	border-left: 1px solid #e2e2e2;
+}
+.products ul.ul_chose li:not(.outer):hover{
+	cursor: pointer;
+}
+/*********红酒列表*********/
+.products .ul_list{
+	width: 1055px;
+	margin: 0 auto;
+	height: 700px;
+	overflow: hidden;
+}
+.products .ul_list li{
+	float: left;
+	width: 200px;
+	height: 280px;
+	margin: 0 11px 20px 0;
+	text-align: center;
+	border: 1px solid rgba(229,229,229,1);
+	background-color: #ffffff;
+}
+.products .ul_list li img{
+	width: 200px;
+	height: 220px;
+}
+.products .ul_list li .title{
+	font-size: 15px;
+    font-weight: bold;
+    color: #dd3333;
+    font-family: arial;
+    margin-top: 10px;
+}

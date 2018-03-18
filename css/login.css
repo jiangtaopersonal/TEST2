@@ -1,0 +1,128 @@
+.main{
+	background-color: #efefef;
+}
+.register{
+	width: 995px;
+	margin: 0 auto;
+	background-color: rgba(255,255,255,0.9);
+}
+.register-form {
+	width: 400px;
+	margin: 100px auto;
+	color: #000000;
+	display: block;
+}
+ h3{
+	text-align: center;
+	color: #000000;
+	font-size: 28px;
+	margin-bottom: 20px!important;
+}
+ .form-user{
+	margin-bottom: 15px;
+}
+ .form-user label{
+	display:block;
+	color: #666;
+	font-size: 13px;
+	font-family: '微软雅黑';
+}
+ .form-user label span{
+	padding-left: 5px;
+	color: red;
+}
+ .form-user input{
+	width: 95%;
+	padding-left: 10px;
+	box-shadow: none;
+	border: 1px solid #ddd;
+	height: 32px;
+	outline: none;
+	color: #000000;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+ .form-user span{
+	color: #fff;
+	display: inline-block;
+	background: #d14242;
+	font-size: 11px;
+    padding: 2px 10px;
+    line-height: 14px;
+    border-radius: 3px;
+    transition: all .2s linear;
+    margin: 10px 0 0 0;
+    display: none;
+}
+ .form-checkbox{
+	padding: 20px 0;
+	width: 100%;
+	color: #888;
+	font-size: 14px;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+}
+ .form-checkbox input{
+	margin: 0;
+	width: 15px;
+	height: 15px;
+	border-top-style: none;
+	    border-top-style:outset;
+	vertical-align:middle;
+}
+ .form-checkbox label{
+	margin: 0;
+	font-weight: normal;
+}
+ .form-user .progress{
+	margin-top: 10px;
+	width: 200px;
+	height: 8px;
+	background: #ddd;
+}
+ .form-user .progress-bar{
+	width: 200px;
+	height: 8px;
+}
+ .form-submit{
+	margin: 15px 0; 
+}
+ .form-submit button{
+	outline: none;
+	 color: #888;
+	width: 90px;
+	height: 35px;
+	font-size: 14px;
+	border: none;
+	border-radius: 4px;
+}{
+	outline: none;
+	 color: #888;
+	width: 90px;
+	height: 35px;
+	font-size: 14px;
+	border: none;
+	border-radius: 4px;
+}
+ .form-submit span{
+	float: right;
+	text-align: center;
+	display: inline-block;
+	width: 200px;
+	height: 35px;
+	border-radius: 3px;
+	line-height: 32px;
+	font-size: 14px;
+	color: #888;
+	border: 1px solid #ddd;
+	cursor: pointer;
+}
+
+/*登录页面*/
+.login_use{
+	width: 400px;
+	margin: 100px auto;
+	height: 200px;
+	color: #000000;
+	display:block;
+}

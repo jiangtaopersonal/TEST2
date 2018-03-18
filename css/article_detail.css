@@ -1,0 +1,105 @@
+.main{
+	background-color: #ededed;
+}
+.article_detail{
+	width: 1055px;
+	margin: 0 auto;
+	color: #666666;
+	font-size: 14px;
+	margin-bottom: 100px;
+}
+.article_detail .article_top{
+	margin: 20px 0;
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	background-color: #ffffff;
+}
+.article_detail .article_top p{
+	padding-left: 25px;
+}
+.article_detail .article_centent{
+	float: left;
+	width: 730px;
+	margin-bottom: 100px;
+	background-color: #ffffff;
+}
+.article_detail .article_centent .article_border{
+	width: 680px;
+	margin: 0 auto;
+/*	height: 300px;*/
+}
+.article_detail .article_centent h1{
+	font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    margin: 30px 0;
+    color: #494949;
+}
+.article_detail .article_centent .article_time p{
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	text-align: left;
+	border-top: 1px solid rgba(237,237,237,1);
+    border-bottom: 1px solid rgba(237,237,237,1);
+}
+.article_detail .article_centent .article_body{
+	padding: 40px 0;
+    border-bottom: 1px solid rgba(237,237,237,1);
+}
+.article_detail .article_centent .turn_article{
+	margin: 20px 0;
+}
+.article_detail .article_centent .turn_article p{
+		margin: 0 0 10px 10px;
+		cursor: pointer;
+		color: #a07165;
+}
+.article_detail .article_centent .turn_article span:hover{
+		background:#a07165;
+		color: white;
+}
+
+/*右侧阅读更多文章*/
+.article_detail .article_more{
+	width: 300px;
+/*	height: 420px;*/
+	float: right;
+	background-color: #ffffff;
+}
+.article_detail .article_more .article_more_border{
+	width: 260px;
+	margin: 35px auto;
+}
+.article_detail .article_more span.span{
+	display: inline-block;
+	width: 100%;
+	padding: 5px 0;
+	border:2px solid rgba(226,226,226,1);
+	box-sizing: border-box;
+	text-align: center;
+}
+.article_detail .article_more ul{
+	margin: 25px 0;
+}
+.article_detail .article_more ul li{
+	margin-bottom: 14px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.article_detail .article_more ul li a{
+	display: inline-block;
+	color: #888888;
+    font-size: 14px;
+    line-height: 14px;
+    padding-bottom: 5px;
+}
+.article_detail .article_more ul li p{
+	color: #c4c4c4;
+    font-size: 12px;
+    line-height: 12px;
+    padding-bottom: 12px;
+}
+.article_detail .article_more ul li p span{
+	padding-left: 5px;
+}

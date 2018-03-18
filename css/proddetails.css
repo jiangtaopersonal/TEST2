@@ -1,0 +1,167 @@
+.prodDetails{
+	width: 1035px;
+	margin: 0 auto;
+	height: 550px;
+}
+.bread{
+	width: 100%;
+	height: 56px;
+	color: #666666;
+    font-size: 14px;
+    font-family: 宋体;
+}
+.bread p{
+	line-height: 56px;
+}
+.prodDetails .prodIntr{
+	width: 1035px;
+	height: 550px;
+	border: 1px solid rgb(153, 153, 153);
+	border-radius: 5px;
+}
+/*****产品图片*********/
+.prodIntr .prodIntr_left{
+	position: relative;
+	float: left;
+	width: 300px;
+	height: 450px;
+	margin: 50px 0 0 30px;
+}
+/*****放大镜小图*********/
+.prodIntr .prodIntr_left .supmask{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	top: 0;
+    left: 0;
+    opacity: 0.5;
+	background: #ffa;
+	display: none;
+	border: 1px solid rgb(153, 153, 153);
+}
+.prodIntr .prodIntr_left .supmasktwo{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	top: 0;
+    left: 0;
+    opacity: 1;
+	border: 1px solid rgb(153, 153, 153);
+	z-index: 20;
+}
+/*.prodIntr .prodIntr_left .supmask2{
+	width: 330px;
+	height: 330px;
+	z-index: 10;
+	opacity: 0.5;
+	background: red;
+}*/
+.prodIntr .prodIntr_right{
+	position: relative;
+	float: right;
+	width: 600px;
+	height: 450px;
+	margin: 50px 50px 0 0;
+}
+/*****放大镜大图*********/
+.prodIntr .prodIntr_right .mask{
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	top: 0;
+    left: 0;
+	background: #ffa;
+	z-index: 10;
+	border: 1px solid rgb(153, 153, 153);
+	display: none;
+	background: url(../img/product1.jpg) no-repeat;
+	background-size: 600px 600px;
+}
+.prodIntr .prodIntr_right .mark img{
+	width: 800px;
+	height: 800px;
+}
+.prodIntr .prodIntr_img img{
+	width:300px;
+	height: 300px;
+	border: 1px solid rgb(153, 153, 153);
+}
+/*小图片列表*/
+.prodIntr .prodIntr_ul{
+	margin-left: 10px;
+}
+.prodIntr .prodIntr_ul li{
+	margin-top: 30px;
+	float: left;
+}
+.prodIntr .prodIntr_ul li:hover{
+		border:2px solid red;
+}
+.prodIntr .prodIntr_ul img{
+	width:70px;
+	height: 70px;
+}
+.prodIntr_right .prodIntr_intrs{
+	margin-left: 30px;
+}
+.prodIntr_right .prodIntr_intrs h3{
+	font-size: 22px;
+    color: rgb(12, 12, 12);
+    margin: 25px 0;
+}
+.prodIntr_right .prodIntr_intrs p{
+	font-size: 12px;
+	margin-bottom: 10px;
+    color: rgb(153, 153, 153);
+}
+.prodIntr_right .prodIntr_intrs p.price{
+	font-size: 28px;
+    color: #dd3333;
+    font-family: tahoma;
+    margin: 30px 0 10px 0;
+}
+.prodIntr_right .prodIntr_intrs p.fenlei span{
+	color: rgb(221, 99, 99);
+}
+.prodIntr_right .prodIntr_cart{
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.prodIntr_right .prodIntr_cart button.button{
+	float: left;
+	width: 220px;
+	height: 50px;
+    font-size: 14px;
+    color: #ffffff;
+    border-color: #5e0000;
+    background-color: #5e0000;
+    border: none;
+    outline: 0;
+    margin-right: 20px;
+}
+.prodIntr_right .prodIntr_cart span{
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+	width: 40px;
+	height: 48px;
+	line-height: 48px;
+	text-align: center;
+	font-size: 15px;
+    font-weight: normal;
+    color: #494949;
+    font-family: times new roman;
+    border: 1px solid #56181a;
+    cursor: pointer;
+}
+.prodIntr_right .prodIntr_cart span.span{
+	border-left: 0;
+	border-right: 0;
+}
+/*商品描述*/
+/*.prodDetails .describe{
+	width: 100%;
+	height: 400px;
+	background: red;
+}
+*/

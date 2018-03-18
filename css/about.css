@@ -1,0 +1,43 @@
+.main{
+	width: 100%;
+	background: #efefef;
+}
+.about{
+	width: 1055px;
+	margin: 0 auto;
+	position: relative;
+}
+/*.common-title{
+	position: absolute;
+	top: 100px;
+	color: #000000;
+	height: 80px;
+	opacity: 0;
+}
+.common-title h1{
+	font-family: times new roman;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.common-title h6{
+	font-family: 微软雅黑;
+    font-size: 13px;
+}*/
+.about .about-intr{
+	margin-top: 180px;
+	width: 655px;
+}
+.about .about-intr>img{
+	width: 100%;
+	height: 204px;
+	overflow: hidden;
+	margin-bottom: 30px;
+	z-index: 100;
+}
+.about .about-intr p{
+	color: #696969;
+	line-height: 25px;
+}
+.about .about-intr p:last-child{
+	padding-bottom: 150px;
+}

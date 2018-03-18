@@ -1,0 +1,142 @@
+.shopcart{
+	width: 1055px;
+	height: 500px;
+	margin: 30px auto;
+	font-size: 14px;
+	color: #777777;
+}
+.shopcart .shopcart-left{
+	width: 680px;
+	height: 500px;
+	float: left;
+}
+/*.shopcart .shopcart-left table tr{
+	width: 100%;
+}*/
+.shopcart .shopcart-left th:nth-child(1){
+	width: 400px;
+}
+.shopcart .shopcart-left th:nth-child(2){
+	width: 70px;
+}
+.shopcart .shopcart-left th:nth-child(3){
+	width: 125px;
+}
+.shopcart .shopcart-left th:nth-child(4){
+	width: 75px;
+}
+.shopcart .shopcart-left table th{
+	color: #555555;
+	height: 28px;
+	font-size: 16px;
+	text-align: left;
+	border-bottom: 3px solid #dddddd;
+}
+.shopcart .shopcart-left table td{
+	text-align: left;
+	font-size: 14px;
+	    border-bottom: 1px dotted #ddd;
+}
+.shopcart .shopcart-left table td input{
+    width: 15px;
+    height: 15px;
+    outline: none;
+}
+.shopcart .shopcart-left table td span{
+    color: #000000;
+}
+.shopcart .shopcart-left table td img{
+	width: 90px;
+	height: 90px;
+	vertical-align: middle;
+	margin: 10px 40px;
+}
+.shopcart .shopcart-left .prodIntr_cart span{
+	display: inline-block;
+    width: 26px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    outline: none;
+    float: left;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+.shopcart .shopcart-left .prodIntr_cart span.span{
+	border-left: 0;
+	border-right: 0;
+}
+.shopcart .shopcart-left tfoot tr {
+	height: 45px;
+	line-height: 45px;
+}
+.shopcart .shopcart-left tfoot tr td{
+	border-bottom: none;
+}
+.shopcart .shopcart-left tfoot tr input{
+	vertical-align: middle;
+}
+.shopcart .shopcart-left tfoot a{
+	  padding: 8px 15px;
+	  color: #5e5e5e;
+	  border: 1px solid #c7c0c7;
+	 cursor: pointer;
+}
+.shopcart .shopcart-left tfoot a:hover{
+	color: #ffffff;
+    border-color: #000000;
+    background-color: #000000;
+}
+
+/*右边*/
+.shopcart .shopcart-right{
+	width:350px;
+	height: 500px;
+	float: right;
+	border-left: 1px solid #c7c0c7;
+}
+.shopcart .shopcart-right div{
+	width: 330px;
+	height: 500px;
+	margin-top: 10px;
+	float: right;
+}
+.shopcart-right div h3{
+	color: rgb(85, 85, 85);
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 3px solid #dddddd;
+}
+.shopcart-right div p{
+	font-size: 14px;
+	padding-bottom: 10px;
+    font-weight: bold;
+    color: #777777;
+    margin-bottom: 10px;
+}
+.shopcart-right div p span{
+	float: right;
+	font-weight: normal;
+}
+.shopcart-right div p.p2{
+	border-bottom: 1px solid #dddddd;
+}
+.shopcart-right div p.p3{
+	border-bottom: 2px solid #dddddd;
+}
+.shopcart-right div button{
+	margin-top: 10px;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	font-size: 16px;
+    color: #ffffff;
+	background-color: #777777;
+	outline: none;
+	border: 0;
+}
+.shopcart-right div button:hover{
+	background-color: #000000;
+}
+
+

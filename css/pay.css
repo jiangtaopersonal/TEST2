@@ -1,0 +1,59 @@
+.main{
+	background: #efefef;
+}
+.pay{
+	width: 1055px;
+	margin: 0 auto;
+	position: relative;
+	/*height: 1000px;*/
+	color: #696969;
+}
+.pay .pay-style .paybao{
+	margin-top: 180px;
+	width: 655px;
+	font-size: 13px;
+	border-bottom:1px solid rgba(209,209,209,1);
+}
+.pay .pay-style .paybao h5{	
+	font-weight: bold;
+	padding: 30px 0;
+}
+.pay .pay-style .paybao p{
+	margin: 30px 0 10px 0;
+}
+.pay .pay-style .paybao span{
+	height: 60px;
+}
+.pay .pay-style .paybao span:last-child{
+	display: block;
+	margin-bottom: 40px;
+}
+.pay .pay-style .paybank{
+	border-bottom:1px solid rgba(209,209,209,1);
+}
+.pay .pay-style .paybank .paybank-title{
+	margin: 50px 0 40px 0;
+}
+.pay .pay-style .paybank .paybank-title h4{
+	color: #000000;
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+.pay .pay-style .paybank .paybank-title span{
+	color: #A9A9A9;
+	font-size: 14px;
+}
+.pay .pay-style .paybank .paybank-centent p{
+	margin-bottom: 15px;
+	color: #696969;
+	font-size: 14px;
+}
+.pay .pay-style .paybank .paybank-centent span{
+	display: inline-block;
+	color: #696969;
+	font-size: 14px;
+	height: 60px;
+}
+.pay .pay-style .paybank .paybank-centent span:last-child{
+	margin-bottom: 40px;
+}
